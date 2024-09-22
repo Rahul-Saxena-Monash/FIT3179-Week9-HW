@@ -1,0 +1,25 @@
+<!<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Ocean Acidification </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    </head>
+    <body>
+        <div class="map">
+            <h1> Ocean Acidification </h1>
+            <p> This map shows the deviation of pH in the ocean surrounding Australia from the global average in 2013. </p>
+            <p> The pH deviation is measured using the pH scale, where a deviation of 0 is the global average. The positive deviations (more basic) are in red, and the negative deviations (more acidic) are in blue. </p>
+            <div class="map-container">
+                <div id="ph-map"></div>
+            </div>
+        </div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
