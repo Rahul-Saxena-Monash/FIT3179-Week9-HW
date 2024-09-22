@@ -1,15 +1,15 @@
 async function loadGeoData() {
-    const response = await fetch('/GeoJSON/ocean_acidification_geo.json');
+    const response = await fetch('ocean_acidification_geo.json');
     return await response.json();
 }
 
 async function loadOceanData() {
-    const response = await fetch('/GeoJSON/ne_110m_ocean.json');
+    const response = await fetch('ne_110m_ocean.json');
     return await response.json();
 }
 
 async function loadGraticuleData() {
-    const response = await fetch('/GeoJSON/ne_110m_graticules_30.json');
+    const response = await fetch('ne_110m_graticules_30.json');
     return await response.json();
 }
 
